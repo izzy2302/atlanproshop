@@ -1,0 +1,150 @@
+@media only screen and (max-width: 767px) {
+	.top {height: auto;overflow: hidden;}
+	.top .left {float: none;}
+	.top .left ul {margin-bottom: 0;margin-top: 10px;}
+	.top .left ul li {float: none;text-align: center;}
+	.top .right {float: none;}
+	.top .right ul {text-align: center;margin-bottom: 20px;}
+	.top .right ul li {float: none;display: inline-block;}
+}
+
+@media only screen and (max-width: 991px) {
+	.header .inner {display: block;background: black;}
+	.header .logo {width: 55%;}
+	.header .logo img {width: 20%;height: 20%;}
+	.header .search-area {display: block;}
+	.header .right {padding-top: 20px;}
+	.header .navbar-form{display: flex;}
+	.header .navbar-form .form-control {width: 98%;}
+	.header .navbar-left {text-align: center;margin-bottom: 10px;}
+	.navbar-form .form-group {display: inline-block;}
+	.navbar-form button {display: inline-block;}
+	.header .right ul {float: none;text-align: center;margin-bottom: 20px;}
+	.header .right ul li {float: none;display: inline-block;}
+	.header .right ul li i{font-size: 20px;color: white;}
+	.header .right ul li span{display: none;}
+	.header form {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.header .search-area button {
+  width: 10%;
+}
+}
+@media only screen and (max-width: 700px) {
+	.header .inner {display: block;}
+	.header .logo {width: 40%;}
+	.header .logo img {width: 45%;height: 45%;}
+	.header .search-area {display: block;}
+	.header .right {padding-top: 20px;}
+	.header .navbar-left {text-align: center;margin-bottom: 10px;}
+	.header .navbar-form .form-control {width: 130%;}
+	.navbar-form .form-group {display: inline-block;}
+	.navbar-form .form-group input{border-radius: 18px;}
+	.navbar-form button {display: inline-block;}
+	.header .right ul {float: none;text-align: center;margin-bottom: 20px;}
+	.header .right ul li {float: none;display: inline-block;}
+	.header .right ul li i{font-size: 20px;color: white;}
+	.header .right ul li span{display: none;}
+	.header form {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.header .search-area button {
+  width: 20%;
+	height: 0%;
+	border: none;
+	color: black;
+	padding: 7px;
+	font-size: 15px;
+	margin-left: 10px;
+	background-color: transparent;
+	border-radius: 0px 18px 18px 0px;
+	}
+	.header .search-area button:hover {
+		color: grey;
+	}
+
+	.service {
+  width: 99%;
+  height: auto;
+  overflow: hidden;
+  padding: 10px 0;
+	}
+
+	.service .item {
+		/* text-align: center; */
+	}
+	.service .item .photo img{
+		width: 50%;
+	}
+	.service .icon {
+		/* text-align: center; */
+	}
+
+	.service .icon i {
+		/* width: 80px;
+		height: 80px;
+		line-height: 80px;
+		text-align: center;
+		background: #0d1452;
+		color: #fff;
+		font-size: 38px;
+		border-radius: 50%; */
+	}
+
+	.product .item  {
+		
+		border: 0;
+	}
+
+}
+
+@media only screen and (max-width: 340px) {
+	.header .logo {width: 42%;}
+	.header .logo img {width: 50%;height: 50%;}
+	.header .right ul li i{font-size: 15px;}
+	.header .navbar-form .form-control {width: 145%;}
+	.header .search-area button {width: 25%;}
+	background-color: blue;
+	margin-left: 15px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.bx-controls a.bx-prev, .bx-controls a.bx-next {padding-top: 215px!important;}
+}
+
+@media only screen and (min-width: 501px) and (max-width: 700px) {
+	ul.bxslider li, ul.bxslider li .text {height: 300px;}
+	.bx-controls a.bx-prev,
+	.bx-controls a.bx-next {font-size: 36px;}
+	ul.bxslider li .text .inner h2 {font-size: 30px;}
+	ul.bxslider li .text .inner h3 {font-size: 20px;}
+	.bx-controls a.bx-prev, .bx-controls a.bx-next {padding-top: 120px!important;}
+}
+
+@media only screen and (min-width: 0px) and (max-width: 500px) {
+	ul.bxslider li, ul.bxslider li .text {height: 250px;}
+	.bx-controls a.bx-prev,
+	.bx-controls a.bx-next {font-size: 30px;}
+	ul.bxslider li .text .inner h2 {font-size: 24px;}
+	ul.bxslider li .text .inner h3 {font-size: 16px;}
+	.bx-controls a.bx-prev, .bx-controls a.bx-next {padding-top: 100px!important;}
+}
+@media only screen and (min-width: 992px) {
+	.product .text {
+		min-height: 190px;
+	}
+	.header .inner {
+		width: 100%;
+	}
+	.header .search-area {
+		padding-right: 0;
+	}
+	.header .search-area form {
+		padding-right: 0;
+	}
+	.header .container {
+		padding-right: 0;
+	}
+}
